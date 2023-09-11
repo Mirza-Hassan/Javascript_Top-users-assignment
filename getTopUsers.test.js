@@ -1,7 +1,7 @@
-// Import the function and User type here
-const getTopUsers = require('./getTopUsers'); // Import the function
+// Import the function
+const getTopUsers = require('./getTopUsers');
 
-// Test case for happy path
+// Test case
 test('getTopUsers returns valid users within maxDistance', () => {
   const users = [
     { distance: 10, id: "1", jobTitles: ["Developer", "Engineer"], name: "Alice" },
@@ -11,7 +11,7 @@ test('getTopUsers returns valid users within maxDistance', () => {
 
   const result = getTopUsers(users, 'Engineer', 20, 2);
 
-  // Expecting two users within maxDistance and matching job title
+  // Expecting users within maxDistance and matching job title
   expect(result).toEqual([
     { distance: 10, id: "1", jobTitles: ["Developer", "Engineer"], name: "Alice" },
    ]);
