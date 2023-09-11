@@ -53,9 +53,13 @@ const getTopUsers = (
 
 # Setup Instructions
 
-1. Clone the repository
+1. Clone the repository:
 ```
 git clone https://github.com/Mirza-Hassan/Top-users-assignment.git
+```
+Navigate to the project directory:
+```
+cd Top-users-assignment
 ```
 2. Run the following command to install the required dependencies:
 ```
@@ -84,3 +88,6 @@ npx jest getTopUsers.test.js
 ```
 npm install --save-dev jest
 ```
+
+![ts](https://github.com/Mirza-Hassan/Top-users-assignment/assets/17096257/ba50b830-52ce-48f4-92e8-a89316c16a35)
+
