@@ -23,7 +23,7 @@ interface User {
   
     for (const user of users) {
     // Line 25: By extracting the 'distance' and 'jobTitles' properties directly from the 'user' object.
-    const { distance, jobTitles } = user; // Use destructuring to make the code more readable.
+    const { distance, jobTitles } = user; // Use destructuring to make the code more readable
      if (distance < maxDistance) {
       for (const jobTitle of jobTitles) {
         if (jobTitle.includes(jobTitleQuery)) {
