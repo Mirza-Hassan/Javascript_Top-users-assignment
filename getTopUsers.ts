@@ -1,10 +1,11 @@
+//mock data
 let mockUsers: User[] = [
    { distance: 10, id: "1", jobTitles: ["Developer", "Engineer"], name: "Alice" },
    { distance: 15, id: "2", jobTitles: ["Designer"], name: "Bob" },
    { distance: 25, id: "3", jobTitles: ["Engineer"], name: "Charlie" },
-   ];
+];
 
-   interface User {
+interface User {
     distance: number;
     id: string;
     jobTitles: string[];
