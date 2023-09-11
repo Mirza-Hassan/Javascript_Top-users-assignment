@@ -57,19 +57,24 @@ const getTopUsers = (
 ```
 git clone https://github.com/Mirza-Hassan/Top-users-assignment.git
 ```
-2. Run the following command to install the required dependencies:
+2. install TypeScript globally:
 ```
-npm install
+npm install -g typescript
 ```
 3. Compile TypeScript (if applicable):
 ```
 tsc getTopUsers.ts
 ```
-3. Run the project:
+4. Run the project:
 ```
 node getTopUsers.js
 ```
-4. Run your tests using the command:
+# Testing
+1. Make sure you have Jest installed. You can install it using:
+```
+npm install --save-dev jest
+```
+2. Run your tests using the command:
 ```
 npx jest
 ```
