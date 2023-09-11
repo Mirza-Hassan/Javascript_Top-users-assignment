@@ -57,6 +57,10 @@ const getTopUsers = (
 ```
 git clone https://github.com/Mirza-Hassan/Top-users-assignment.git
 ```
+2. Run the following command to install the required dependencies:
+```
+npm install
+```
 2. install TypeScript globally:
 ```
 npm install -g typescript
