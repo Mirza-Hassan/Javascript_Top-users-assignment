@@ -52,21 +52,28 @@ const getTopUsers = (
 - Testing: Jest
 
 # Setup Instructions
-1. Clone the repository
 
+1. Clone the repository
+```
+git clone https://github.com/Mirza-Hassan/Top-users-assignment.git
+```
 2. Run the following command to install the required dependencies:
 ```
 npm install
 ```
-
-3. Once the installation is complete, start the development server with:
+3. Compile TypeScript (if applicable):
 ```
-npm start
+tsc getTopUsers.ts
 ```
-
+3. Run the project:
+```
+node getTopUsers.js
+```
 4. Run your tests using the command:
-
 ```
-npm run test
+npx jest
 ```
-
+or 
+```
+npx jest getTopUsers.test.js
+```
