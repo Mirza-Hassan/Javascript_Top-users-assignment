@@ -80,11 +80,11 @@ node getTopUsers.js
 ```
 npx jest
 ```
-or 
+or If you want to run specific test files, you can specify the file path:
 ```
 npx jest getTopUsers.test.js
 ```
-2. Make sure you have Jest installed. You can install it using:
+2. If Jest is not already installed globally, You can install it using:
 ```
 npm install --save-dev jest
 ```
